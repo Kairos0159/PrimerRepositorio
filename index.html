@@ -3,37 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Página Principal</title>
+	<title>Página de programacion IV</title>
 </head>
 <body>
 
 	<a href="#">
 		
-		<img src="img/btn-inicio.png" alt="no_carga_mensaje" title="Ir al index" width="20px">
+		<img src="img/btn-inicio.png" alt="no_carga_mensaje" title="Ir al index" width="40px">
 	</a>
 	<br>
 
 	<a href="paginas/contactos.html">
 		
-		<img src="img/btn-contactos.png" alt="no_carga_mensaje" title="Ir a contactos" width="40px">
+		<img src="img/contactos.png" alt="no_carga_mensaje" title="Ir a contactos" width="40px">
 	</a>
 	<br>
 	<a href="paginas/servicios.html">
 		
-		<img src="img/btn-servicios.png" alt="no_carga_mensaje" title="Ir a servicios" width="40px">
+		<img src="img/servicios.png" alt="no_carga_mensaje" title="Ir a servicios" width="40px">
 	</a>
 
-<p> Página Principal Grupo Lunes</p>
+<p> Página Principal</p>
 <!-- Etiquetas de texto -->
 <p>
 	
-	Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Distinctio magnam quasi aperiam labore, voluptate culpa quidem aliquam, in rerum deleniti tempora, atque? Debitis fugiat quia obcaecati animi illo consequuntur doloribus.
-
+	El hijo de rana, Rinrín renacuajo salió esta mañana muy tieso y muy majo con pantalón corto, corbata a la moda, sombrero encintado y chupa de boda. -¡Muchacho, no salgas!- le grita mamá, pero él hace un gesto y orondo se va. Halló en el camino a un ratón vecino y le dijo: -¡amigo!- venga usted conmigo, visitemos juntos a doña ratona y habrá francachela y habrá comilona. A poco llegaron, y avanza ratón, estírase el cuello, coge el aldabón, da dos o tres golpes, preguntan: ¿quién es? -Yo doña ratona, beso a usted los pies. ¿Está usted en casa? -Sí señor sí estoy, y celebro mucho ver a ustedes hoy; estaba en mi oficio, hilando algodón, pero eso no importa; bienvenidos son. Se hicieron la venia, se dieron la mano, y dice Ratico, que es más veterano: Mi amigo el de verde rabia de calor, démele cerveza, hágame el favo
 
 </p>
 
 <!-- Negrita sin peso semántico -->
-
 <b>Negrita</b>
 <br>
 
@@ -45,12 +43,29 @@
 
 
 <p> 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	El hijo de rana, Rinrín renacuajo
+	Salió esta mañana muy tieso y muy majo
+	Con pantalón corto, corbata a la moda
+	Sombrero encintado y chupa de boda.
+	-¡Muchacho, no salgas!- le grita mamá
+	pero él hace un gesto y orondo se va.
+	Halló en el camino, a un ratón vecino
+	Y le dijo: -¡amigo!- venga usted conmigo,
+	Visitemos juntos a doña ratona
+	Y habrá francachela y habrá comilona.
+	A poco llegaron, y avanza ratón,
+	Estírase el cuello, coge el aldabón,
+	Da dos o tres golpes, preguntan: ¿quién es?
+	-Yo doña ratona, beso a usted los pies
+	¿Está usted en casa? -Sí señor sí estoy,
+	y celebro mucho ver a ustedes hoy;
+	estaba en mi oficio, hilando algodón,
+	pero eso no importa; bienvenidos son.
+	Se hicieron la venia, se dieron la mano,
+	Y dice Ratico, que es más veterano :
+	Mi amigo el de verde rabia de calor,
+	Démele cerveza, hágame el favor.
+	
 </p>
 <br>
 <!-- Cursiva -->
@@ -73,9 +88,9 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <br>
 <del>Texto tachado</del>
 <br>
-<hr>
 
-<!-- Textos por tamaño -->
+<hr>
+<strong>Encabezados o tamaños de texto</strong>
 
 <h1>Textos h1...</h1>
 <h2>Textos h2...</h2>
@@ -97,9 +112,14 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <h4>Link página Universidad - abre en la misma pestaña</h4>
 <a href="https://www.unicesar.edu.co/" target="_blank">Página de la Universidad</a>
 
+<hr>
+<h4>Imagen</h4>
+<img src="img/ghost.jpg" alt="Ejemplo de fantsama real captado en camara" width="200px">
+
+
 <h4>Link a una imagen</h4>
 
-<a href="img/imagen1.jpg" target="_blank">Clic para ver imagen</a>
+<a href="img/saturno.jpg" target="_blank">Clic para ver imagen</a>
 
 <h4>Link a archivos</h4>
 
@@ -111,11 +131,27 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <br>
 <a href="paginas/servicios.html">Link a la página de Servicios</a>
 
+<hr>
+<h2> HTML botones </h2>
 
+	<button>Botón sin acción</button>
+	<br>
+	<button onclick="alert('Hello world.')">Botón con mensaje</button>
+	<br>
+	<button onclick="mostrarHora()">Botón que da la hora</button>
 
-<!-- Listas -->
+	<script>
+	function mostrarHora() {
+		const fecha = new Date();
+		const hora = fecha.toLocaleTimeString();
+		alert('La hora actual es: ' + hora);
+	}
+	</script>
 
-<!-- Listas ordenadas -->
+<hr>
+<h2>Listas</h2>
+
+<h3>Listas ordenadas</h3>
 <h2>Siga las siguientes instrucciones para subir a su repositorio remoto</h2>
 <ol>
 	
@@ -128,7 +164,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	<li>Subir (push)</li>
 </ol>
 
-<!-- Lista desordenada -->
+<h3>Listas desordenadas</h3>
 
 <h2>Lista de documentos necesarios para matrícula en la Universidad Popular del Cesar seccional Aguachica</h2>
 
@@ -139,23 +175,24 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	<li>Subir Resultados prueba Saber 11</li>
 </ul>
 
-<!-- Listas ordenadas -->
+
 
 <ol>
 	<li>Opción 1</li>
 	<li>Opción 2</li>
 </ol>
 
-<!-- Listas desordenadas -->
+
 
 <ul>
 	<li>Documento 1</li>
 	<li>Documento 2</li>
 </ul>
 
-<!-- Tablas -->
+<hr>
+<h2>Tablas</h2>
 
-<!-- Tabla (3x4) 3 filas 4 columnas -->
+
 
 <table border="2px">
 	<tr>
@@ -166,18 +203,29 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</tr>
 
 	<tr>
-		<td>1065765544</td>
-		<td>Calletana</td>
-		<td>López Baleta</td>
-		<td>calletanalopez@gmail.com</td>
+		<td>1065867722</td>
+		<td>Julian</td>
+		<td>Moncada Pacheco</td>
+		<td>julianmoncada722@gmail.com</td>
 	</tr>
 
 	<tr>
-		<td>2999999</td>
-		<td>Yulieth</td>
-		<td>Martinez Ramos</td>
-		<td>yulimartinez@gmail.com</td>
+		<td>1065889568</td>
+		<td>Juan</td>
+		<td>Martinez Herrera</td>
+		<td>juanmartinez@gmail.com</td>
+
 	</tr>
+	<tr>
+		<td>1065854879</td>
+		<td>Carol</td>
+		<td>Rodriguez Castro</td>
+		<td>carolrodriguez@gmail.com</td>
+	</tr>
+
+
+
+
 </table>
 
 
