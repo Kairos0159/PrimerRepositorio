@@ -1,0 +1,31 @@
+body{
+    background-color:rgba(221, 242, 255, 0.816);
+}
+.pDiferente{
+    color:rgb(255, 0, 0);
+}
+.pDiferente2{
+    color:green;
+}
+
+.pKyara{
+    color:rgba(0, 170, 255, 0.963);
+}
+.colorRGB{
+    color:rgb(255, 0, 0);
+}
+.colorRGBA{
+    width: 50px;
+    color:rgba(255, 0, 0, 0.5);
+}
+.divHSL{
+    width: 50%;
+    background-color:hsl(120, 100%, 75%);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
